@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin : 0;
+    padding : 0;
+}
+.topbandeau {
+    background-color: #3480be;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    color : white;
+}
+.liste {
+    display : flex;
+    flex-direction: row;
+    list-style: none;
+    color : white;
+    margin: 10px;
+}
+.liste li a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+a {
+    color: #235680;
+    margin: 15px;
+}
+h1 {
+    color : #235680;
+    font-weight: bold;
+    text-align: center;
+    margin-top : 0px;
+    padding : 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 60px;
+}
+h2{
+    color : #235680;
+    text-align:center;
+    margin-top :0;
+    font-weight: 300;
+    font-size: 50px;
+}
+.fond1 {
+    background-image: url("bg.gif");
+    background-size: contain;
+}
+hr {
+    border-width : 2px;
+    width : 90px;
+    background-color :#235680;
+    margin-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.texte2 {
+    width : 350px;
+    font-size: 14px;
+    margin-top: 0%;
+}
+.phrase {
+    font-size: 25px;
+}
+.textebleu {
+    text-align: center;
+    color : #235680;
+    padding-top: 10px ;
+    padding-bottom: 70px;
+}
+.bouton{
+    background-color: white;
+    display : flex;
+    flex-direction: row;
+    margin : auto;
+    width: 350px;
+}
+.bouton2{
+    background-color: white;
+    margin : auto;
+    border : solid 1px #235680;
+    border-radius:4px ;
+    width : 150px;
+}
+.bouton3{
+    background-color: white;
+    margin : auto;
+    border : solid 1px #235680;
+    border-radius:4px ;
+    width : 150px;
+}
+.contact{
+    text-decoration: none;
+    text-align: center;
+}
+.bouton1:hover, .bouton2:hover, .bouton3:hover{
+    background-color: #235680;
+    color : white !important;
+}
+.bouton1{
+    display : flex;
+    border : solid 1px #235680;
+    background-color: white;
+    border-radius:4px ;
+    width : 150px;
+    text-decoration: none;
+}
+.fond2 {
+    text-align: left;
+    background-color: #f5f5f5;
+    padding-top: 5%;
+}
+.gauche{
+    text-align: left;
+    margin-left: 15%;
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+    margin-left: 15%;;
+}
+.logo {
+    display: flex; 
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #3480be;
+    color : white;
+    justify-content: space-evenly;
+}
+footer > p > a{
+    color : white;
+    margin-left : 1px;
+    margin-right: 1px;
+}
+.colonne {
+    display : flex;
+    flex-direction: column;
+}
